@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Web App{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>{% block header %}My Web App{% endblock %}</h1>
+        <!-- header content here -->
+    </header>
 
+    <nav>
+        <!-- navigation links here -->
+    </nav>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <!-- footer stuff here -->
+    </footer>
+
+    <!-- javascript codes here -->
+</body>
+</html>
+
+<!-- more possible to be put but this is just template -->
